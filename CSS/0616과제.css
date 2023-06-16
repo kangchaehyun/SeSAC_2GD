@@ -1,0 +1,42 @@
+h2:hover{
+    background-color: black;
+    color: white;
+}
+
+textarea:focus{
+    background-color: rgb(255, 232, 236);
+    border-color: black;
+}
+
+input#red:checked + label{
+    background-color: red;
+    color: white;
+}
+
+input#blue:checked + label{
+    background-color: blue;
+    color: white;
+}
+
+input#yellow:checked + label{
+    background-color: yellow;
+    color: white;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(235, 88, 88);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+button:active {
+    width: 50px;
+    height: 30px;
+    background-color: lightgray;
+    color: rgb(255, 94, 94);
+    border: 0;
+    border-radius: 10px;
+}
