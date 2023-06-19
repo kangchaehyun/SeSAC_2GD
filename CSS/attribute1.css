@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap');
+
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-link{
+    font-family: 'Bagel Fat One', cursive;
+}
+
+.font-import{
+    font-family: 'Noto Serif KR', serif;
+}
+
+.noonnu-font{
+    font-family: 'GoryeongStrawberry', serif
+}
+
+.container{
+    width: 500px;
+    background-color: aliceblue;
+}
+
+.sentences{
+    font-weight: 700;
+    font-size: 1em;
+
+    text-align: center;
+
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: overline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

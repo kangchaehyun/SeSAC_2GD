@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(143, 175, 134, 0.488);
+}
+
+h1{
+    color: green;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+table tr th{
+    color: gray;
+}
+
+table tr th:first-child,
+table tr td:first-child,
+table tr td.holiday{
+    color: red;
+}
+
+table tr th:last-child,
+table tr td:last-child{
+    color: blue;
+}

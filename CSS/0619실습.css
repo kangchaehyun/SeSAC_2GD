@@ -1,0 +1,10 @@
+.stripe > * {
+    background-color: navy;
+    color: yellow;
+}
+
+.stripe > div:nth-child(4n+2){
+    background-color: yellow;
+    color: navy;
+}
+
