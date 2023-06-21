@@ -146,9 +146,13 @@
 .overflow-auto{
     overflow:auto
 }
+/* 넘칠 때만 스크롤 생성 */
 .overflow-scroll{
     overflow:scroll
 }
+/* 넘치지 않아도 스크롤 생성 */
 .overflow-visible{
     overflow: visible;
 }
+
+/* 기본값, 넘치면 넘치도록 다 보여줌 */

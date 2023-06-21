@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <link rel="stylesheet" href="./0619실습.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <style>
+      .stripe > * {
+        background-color: navy;
+        color: yellow;
+      }
+
+      .stripe > div:nth-child(4n + 2) {
+        background-color: yellow;
+        color: navy;
+      }
+    </style>
+  </head>
+  <body>
     <div class="stripe">
-        <div>navy</div>
-        <div>yellow</div>
-        <div>navy</div>
-        <div>navy</div>
-        <div>navy</div>
-        <div>yellow</div>
-        <div>navy</div>
-        <div>navy</div>
-        <div>navy</div>
-        <div>yellow</div>
-        <div>navy</div>
+      <div>navy</div>
+      <div>yellow</div>
+      <div>navy</div>
+      <div>navy</div>
+      <div>navy</div>
+      <div>yellow</div>
+      <div>navy</div>
+      <div>navy</div>
+      <div>navy</div>
+      <div>yellow</div>
+      <div>navy</div>
     </div>
-</body>
+  </body>
 </html>
