@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>공 움직이기</title>
+    <style>
+      .ball {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(red, orange, yellow);
+        border-radius: 50%;
+        position: absolute;
+        animation: ball 6s linear infinite;
+      }
+
+      @keyframes ball {
+        to,
+        from {
+          left: 0px;
+          top: 0px;
+          /* transfrom: translate:(0,0) */
+        }
+
+        25% {
+          top: calc(100vh - 100px);
+          left: 0px;
+
+          /* transfrom: translate:(clac(100vw - 100px),0) */
+        }
+
+        50% {
+          top: calc(100vh - 100px);
+          left: calc(100vw - 100px);
+          /* transfrom: translate:(clac(100vw - 100px),clac(100vh - 100px)) */
+        }
+
+        75% {
+          top: 0px;
+          left: calc(100vw - 100px);
+          /* transfrom: translate:(100vh,clac(100vh - 100px)) */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ball"></div>
+  </body>
+</html>
