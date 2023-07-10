@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>반응형 헤더만들기</title>
+    <title>반응형 헤더 만들기</title>
     <script
-      src="https://kit.fontawesome.com/06b2b40fc8.js"
+      src="https://kit.fontawesome.com/837ff3adc1.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./responsive-header.css" />
@@ -13,14 +13,16 @@
   <body>
     <header>
       <div class="inner">
-        <i class="fa-solid fa-igloo"></i>
+        <i class="fa-solid fa-igloo logo"></i>
         <ul class="menu">
           <li>메뉴1</li>
           <li>메뉴2</li>
           <li>메뉴3</li>
           <li>메뉴4</li>
         </ul>
+        <i class="fa-solid fa-bars-staggered menu-bar"></i>
       </div>
+
       <ul class="small-menu">
         <li>메뉴1</li>
         <li>메뉴2</li>
@@ -28,5 +30,12 @@
         <li>메뉴4</li>
       </ul>
     </header>
+    <script>
+      const bar = document.querySelector(".menu-bar");
+      const hideMenu = document.querySelector(".small-menu");
+      bar.addEventListener("click", () => {
+        hideMenu.classList.toggle("click");
+      });
+    </script>
   </body>
 </html>
